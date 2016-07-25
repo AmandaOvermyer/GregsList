@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 80px;
+	font-family: 'Droid Serif', serif;
+
+}
+header {
+	position: fixed;
+	background-color: #eeeeee;
+	border-bottom:1px solid #dddddd;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	height: 60px;
+
+}
+h1{
+	font-family: 'Sigmar One', cursive;
+	margin-top: 0;
+	padding: 0;
+}
+
+nav {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	
+}
+
+.navlink {
+	font-size: 20px;
+	padding: 0 6px;
+
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+}
+
+.search-section {
+	margin-top: 80px;
+}
+
+.search-section input {
+	font-size: 17px;
+	line-height: 30px;
+	height: 30px;
+	border:1px solid #dddddd;
+	border-radius: 3px;
+	width: 400px;
+	padding-left: 8px;
+}
+
+.search-section button {
+	font-size: 16px;
+	height: 30px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	background-color: white;
+}
+.pages{
+	font-size: 0;
+}
+.pages-button {
+	font-size: 16px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 8px 15px;
+	margin-top: 30px;
+}
+
+.pages-display{
+	font-size: 16px;
+	border: 1px solid #dddddd;
+	padding: 8px 30px;
+}
+.listings {
+	line-height: 25px;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-left: -40px;
+}
+.listing {
+	display: block;
+	list-style: none;
+}
+
+.fa-star {
+	color: gray;
+}
+
+.fa-star:hover {
+	color: yellow;
+}
+
+.date-posted {
+	font-size: 16px;
+	color: gray;
+	padding: 10px;
+}
+
+.job-listing {
+	font-weight: bold;
+	color: blue;
+}
+
+.location {
+	font-size: 12px;
+	color: gray;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: gray;
+}
